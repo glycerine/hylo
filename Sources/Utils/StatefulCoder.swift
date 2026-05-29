@@ -14,7 +14,7 @@ public protocol StatefulCoder {
   associatedtype Encoding = Data
 
   /// The storage vehicle for state.
-  var userInfo: [CodingUserInfoKey: any Sendable] { get set }
+  var userInfo: [CodingUserInfoKey: Any] { get set }
 
 }
 
